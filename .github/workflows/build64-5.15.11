@@ -16,7 +16,7 @@ jobs:
         architecture: 'x64'
     - name: Compile static Qt version
       run: |
-        # Clone Qt6 repo
+        # Clone Qt5.15.11 repo
         cd ..
         git clone https://code.qt.io/qt/qt5.git -b 5.15
         cd qt5
